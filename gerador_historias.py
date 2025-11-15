@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import re
+from difflib import SequenceMatcher
 import time
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
@@ -203,11 +204,27 @@ class ConfigDialog(QDialog):
 
 class StoryQualityAnalyzer:
     """Analisador de qualidade das histórias geradas"""
-    
+
     def __init__(self, language: str, country: str):
         self.language = language
         self.country = country
-        
+
+    def calculate_similarity(self, text1: str, text2: str) -> float:
+        """Calcula a similaridade aproximada entre dois textos."""
+        tokens1 = self._tokenize_for_similarity(text1)
+        tokens2 = self._tokenize_for_similarity(text2)
+
+        if not tokens1 or not tokens2:
+            return 0.0
+
+        matcher = SequenceMatcher(None, tokens1, tokens2)
+        return matcher.ratio()
+
+    @staticmethod
+    def _tokenize_for_similarity(text: str) -> List[str]:
+        """Normaliza o texto para comparação removendo pontuação e caixa."""
+        return re.findall(r"\w+", text.lower())
+
     def analyze_story(self, story_text: str, chapters: list, title: str) -> dict:
         """Analisa a qualidade da história gerada"""
         analysis = {
@@ -919,7 +936,7 @@ Número de capítulos: 8
             # Corrigido para logar o JSON completo
             self.api_log.emit(prompt_full[:2000], response_text[:2000])
         
-        return response_text
+            return response_text
             
         except Exception as e:
             self.error.emit(f"Erro na API: {str(e)}")
@@ -1465,7 +1482,6 @@ RESPONSE ({len(response)} chars total):
   • Idioma correto: {'✅' if analysis['language_check'] else '❌'}
   • Sem repetições: {'✅' if analysis['repetition_check'] else '❌'}
   • Progressão da trama: {'✅' if analysis['plot_progression'] else '❌'}
-{/* • Aderência ao título: {'✅' if analysis['title_adherence'] else '❌'} # REMOVIDO */}
 
 """
         
@@ -1921,8 +1937,8 @@ RESPONSE ({len(response)} chars total):
         reply = QMessageBox.question(
             self,
             'Confirmar',
-            'Limpar todas as abas e o log?\n\N'
-            '(Os arquivos salvos NÃO serão apagados)',
+            "Limpar todas as abas e o log?\n\n"
+            "(Os arquivos salvos NÃO serão apagados)",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
         )
         
