@@ -919,7 +919,7 @@ Número de capítulos: 8
             # Corrigido para logar o JSON completo
             self.api_log.emit(prompt_full[:2000], response_text[:2000])
         
-        return response_text
+            return response_text
             
         except Exception as e:
             self.error.emit(f"Erro na API: {str(e)}")
@@ -1465,7 +1465,6 @@ RESPONSE ({len(response)} chars total):
   • Idioma correto: {'✅' if analysis['language_check'] else '❌'}
   • Sem repetições: {'✅' if analysis['repetition_check'] else '❌'}
   • Progressão da trama: {'✅' if analysis['plot_progression'] else '❌'}
-{/* • Aderência ao título: {'✅' if analysis['title_adherence'] else '❌'} # REMOVIDO */}
 
 """
         
@@ -1921,8 +1920,8 @@ RESPONSE ({len(response)} chars total):
         reply = QMessageBox.question(
             self,
             'Confirmar',
-            'Limpar todas as abas e o log?\n\N'
-            '(Os arquivos salvos NÃO serão apagados)',
+            "Limpar todas as abas e o log?\n\n"
+            "(Os arquivos salvos NÃO serão apagados)",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
         )
         
