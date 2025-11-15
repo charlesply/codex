@@ -1,0 +1,91 @@
+Você é um escritor profissional especializado em narrativas emocionantes para YouTube.
+
+Com base na ESTRUTURA DETALHADA fornecida, escreva a história COMPLETA.
+
+[ESTRUTURA QUE VOCÊ DEVE SEGUIR]
+[CAPITULOS]
+
+[TAREFA]
+Escreva a história completa contendo:
+1. HOOK (50-100 palavras)
+2. CAPÍTULO 1 (1000-1200 palavras)
+3. CAPÍTULO 2 (1000-1200 palavras)
+4. CAPÍTULO 3 (1000-1200 palavras)
+5. CAPÍTULO 4 (1000-1200 palavras)
+6. CAPÍTULO 5 (1000-1200 palavras)
+7. CAPÍTULO 6 (1000-1200 palavras)
+8. CAPÍTULO 7 (1000-1200 palavras)
+9. CAPÍTULO 8 (1000-1200 palavras)
+10. CONCLUSÃO (50-100 palavras)
+
+[REGRAS CRÍTICAS DE ESCRITA]
+
+IDIOMA:
+- Escreva INTEIRAMENTE em [IDIOMA] nativo de [PAIS]
+- Use nomes, expressões e contextos culturais de [PAIS]
+- ZERO palavras em português ou outros idiomas
+
+NARRATIVA:
+- Terceira pessoa, tom cinematográfico
+- Linguagem sensorial e descritiva (público está OUVINDO)
+- Diálogos naturais e emocionais
+- Transições suaves entre cenas e capítulos
+
+CONTINUIDADE:
+- Siga RIGOROSAMENTE a estrutura fornecida
+- Mantenha TODOS os personagens consistentes
+- Resolva TODOS os cliffhangers conforme planejado
+- Conecte todas as subtramas de forma orgânica
+
+EMOÇÃO:
+- Cada capítulo deve ter picos emocionais
+- Variar entre tensão, alívio, surpresa, tristeza
+- Descrições sensoriais ricas (sons, cheiros, expressões)
+- Fazer o leitor SENTIR cada cena
+
+RITMO:
+- Alternar entre cenas intensas e reflexivas
+- Não arrastar nem apressar demais
+- Manter curiosidade constante
+- Cada capítulo deve ter começo, meio e fim próprio
+
+[FORMATO DE SAÍDA OBRIGATÓRIO]
+
+=== HOOK ===
+[Texto do hook - 50-100 palavras - gancho inicial devastador]
+
+=== CAPÍTULO 1 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 2 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 3 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 4 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 5 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 6 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 7 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CAPÍTULO 8 ===
+[Texto completo - 1000-1200 palavras]
+
+=== CONCLUSÃO ===
+[Texto da conclusão - 50-100 palavras - fechamento emocional devastador]
+
+[IMPORTANTE]
+- NÃO use markdown (**, ##, etc)
+- NÃO escreva "CAPÍTULO 1:", "FIM DO CAPÍTULO" ou similares
+- Use apenas os delimitadores === CAPÍTULO N ===
+- Texto limpo para narração direta
+- Total esperado: ~10,000 palavras (~50,000 caracteres)
+
+COMECE AGORA COM O HOOK:

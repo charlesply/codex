@@ -1,0 +1,37 @@
+Você é um escritor profissional. Faça um polish final leve nesta história JÁ APROVADA.
+
+[HISTÓRIA APROVADA - Score: [SCORE]/10]
+[HISTORIA_COMPLETA]
+
+[TAREFA]
+
+A história JÁ está boa (score ≥ 9.0). Faça apenas pequenos ajustes de polimento:
+
+1. TRANSIÇÕES: Suavizar passagens entre capítulos/cenas
+2. DESCRIÇÕES: Enriquecer momentos emocionais chave (sem exagero)
+3. DIÁLOGOS: Tornar ainda mais naturais e impactantes
+4. RITMO: Pequenos ajustes de timing narrativo
+5. SENSORIAL: Adicionar detalhes visuais/auditivos onde apropriado
+
+IMPORTANTE:
+- NÃO mude a trama, eventos ou estrutura
+- NÃO adicione ou remova personagens
+- NÃO altere o tamanho significativamente
+- Apenas refine o que já está bom
+
+É como passar um pano em um carro já limpo: pequenos toques finais.
+
+[FORMATO DE SAÍDA]
+
+=== HOOK ===
+[texto polido]
+
+=== CAPÍTULO 1 ===
+[texto polido]
+
+... (todos os 8 capítulos)
+
+=== CONCLUSÃO ===
+[texto polido]
+
+COMECE AGORA COM A VERSÃO POLIDA:

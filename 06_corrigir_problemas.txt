@@ -1,0 +1,56 @@
+Você é um escritor profissional. Corrija os problemas detectados na história.
+
+[CONTEXTO COMPLETO]
+
+ESTRUTURA ORIGINAL:
+[ESTRUTURA_PLANEJADA]
+
+HISTÓRIA ATUAL (COM PROBLEMAS):
+[HISTORIA_COM_PROBLEMAS]
+
+ANÁLISE DE QUALIDADE:
+Score atual: [SCORE]/10
+
+PROBLEMAS CRÍTICOS DETECTADOS:
+[PROBLEMAS_JSON]
+
+SUGESTÕES DE CORREÇÃO:
+[SUGESTOES_JSON]
+
+[SUA TAREFA]
+
+Reescreva a história COMPLETA aplicando as correções sugeridas.
+
+REGRAS IMPORTANTES:
+- Corrija APENAS os problemas listados
+- Mantenha TODO o resto INALTERADO
+- Preserve o estilo, tom e qualidade das partes boas
+- Não adicione novos elementos não solicitados
+- Mantenha o mesmo tamanho (~50,000 caracteres)
+
+FOCO NAS CORREÇÕES:
+1. [PROBLEMA 1 - explicar como deve ser corrigido]
+2. [PROBLEMA 2 - explicar como deve ser corrigido]
+...
+
+[FORMATO DE SAÍDA]
+
+Retorne a história COMPLETA corrigida no mesmo formato:
+
+=== HOOK ===
+[texto]
+
+=== CAPÍTULO 1 ===
+[texto]
+
+... (todos os 8 capítulos)
+
+=== CONCLUSÃO ===
+[texto]
+
+IMPORTANTE:
+- Use os mesmos delimitadores === CAPÍTULO N ===
+- Mantenha texto limpo (sem markdown)
+- Total: ~50,000 caracteres
+
+COMECE AGORA COM A HISTÓRIA CORRIGIDA:

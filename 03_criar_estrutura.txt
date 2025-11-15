@@ -1,0 +1,100 @@
+Pode criar a estrutura dos capítulos dessa opção, e tenha em mente que o capítulo 1 é o mais importante de todos, pois é o que vai prender o espectador para que ele queira continuar assistindo a história. Por favor, seja IMPECÁVEL na construção de todos os capítulos, mas principalmente do primeiro. Aja como um cineasta para prender o espectador desde a primeira linha que escrever.
+Com base na opção de trama escolhida, crie uma ESTRUTURA DETALHADA de 8 capítulos.
+
+IMPORTANTE: Esta é a ESTRUTURA (esqueleto da história), não a escrita completa.
+Você vai criar o "mapa" que será seguido na próxima etapa.
+
+[FORMATO OBRIGATÓRIO PARA CADA CAPÍTULO]
+
+CAPÍTULO [N]: [Título Impactante do Capítulo]
+
+Objetivo Narrativo:
+[O que este capítulo deve alcançar na progressão da história]
+
+Eventos Principais:
+- [Evento 1 - detalhado]
+- [Evento 2 - detalhado]
+- [Evento 3 - detalhado]
+- [Evento 4 - se necessário]
+
+Personagens Envolvidos:
+[Lista e papel de cada um neste capítulo]
+
+Conflitos/Dilemas:
+[Conflitos internos e externos explorados]
+
+Emoção Dominante:
+[Ex: medo, raiva, esperança, desespero, alívio]
+
+Desenvolvimento de Arcos:
+[Como os personagens evoluem neste capítulo]
+
+Cliffhanger/Gancho:
+[Como termina para manter curiosidade - se aplicável]
+
+Elementos Sensoriais Chave:
+[Cenas visuais/auditivas marcantes que devem ser descritas]
+
+---
+
+[INSTRUÇÕES CRÍTICAS]
+
+1. CAPÍTULO 1 é o mais importante:
+   - DEVE ter gancho emocional nos primeiros 30 segundos
+   - Apresentar protagonista + conflito + mistério
+   - Criar identificação imediata
+   - Deixar pelo menos 2 perguntas sem resposta
+
+2. CAPÍTULOS 2-7 devem ter Cliff Range:
+   - Cada cap abre 1-2 ganchos novos
+   - Cada cap resolve 0-1 ganchos antigos
+   - Mapear claramente onde cada gancho é resolvido
+
+3. CAPÍTULO 8 deve:
+   - Resolver TODOS os ganchos pendentes
+   - Conectar elementos aparentemente desconexos
+   - Ter reviravolta final mas lógica
+   - Deixar lição de vida clara
+
+4. SUBTRAMAS:
+   - Identificar 2-3 subtramas que se entrelaçam
+   - Mostrar como se conectam ao arco principal
+
+[MAPEAMENTO DE CLIFFHANGERS]
+
+Liste TODOS os ganchos que serão usados:
+
+Cap 1: [Gancho A] → Resolve em: Cap 5
+Cap 1: [Gancho B] → Resolve em: Cap 8
+Cap 2: [Gancho C] → Resolve em: Cap 6
+Cap 3: [Gancho D - CLIFF RANGE PRINCIPAL] → Resolve em: Cap 7
+Cap 4: [Gancho E] → Resolve em: Cap 7
+Cap 5: [Gancho F] → Resolve em: Cap 8
+Cap 6: [Gancho G] → Resolve em: Cap 8
+
+[ARCOS EMOCIONAIS DOS PERSONAGENS]
+
+Protagonista:
+Cap 1: [Estado inicial]
+Cap 2-3: [Primeira transformação]
+Cap 4-5: [Crise/Queda]
+Cap 6-7: [Luta/Decisão]
+Cap 8: [Transformação final]
+
+[Outros personagens importantes seguem mesmo padrão]
+
+[CONTEXTO CULTURAL DE [PAIS]]
+
+Localizações específicas:
+- [Local do Cap 1]
+- [Local do Cap 2]
+...
+
+Elementos culturais incluídos:
+- [Tradição/costume 1]
+- [Expressão típica/referência local]
+...
+
+[OUTPUT ESPERADO]
+Estrutura completa e detalhada de 8 capítulos (1000-1500 palavras total)
+Seja específico: quanto mais detalhes, melhor será a escrita na próxima etapa.

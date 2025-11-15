@@ -1,0 +1,153 @@
+Você é um editor profissional de histórias narrativas.
+
+Analise a qualidade da história completa abaixo e forneça um relatório estruturado.
+
+[ESTRUTURA ORIGINAL QUE DEVERIA TER SIDO SEGUIDA]
+[ESTRUTURA_PLANEJADA]
+
+[HISTÓRIA ESCRITA]
+[HISTORIA_COMPLETA]
+
+[CRITÉRIOS DE AVALIAÇÃO]
+
+1. CONTINUIDADE (0-10):
+   ✓ Todos os eventos seguem a estrutura planejada?
+   ✓ Transições entre capítulos são naturais?
+   ✓ Linha temporal é consistente?
+   ✓ Não há contradições de eventos?
+
+2. PERSONAGENS (0-10):
+   ✓ Protagonista mantém consistência de personalidade?
+   ✓ Personagens secundários são coerentes?
+   ✓ Diálogos correspondem ao caráter de cada um?
+   ✓ Arcos emocionais bem desenvolvidos?
+
+3. CLIFFHANGERS/GANCHOS (0-10):
+   ✓ Todos os ganchos abertos foram resolvidos?
+   ✓ Resoluções são lógicas e satisfatórias?
+   ✓ Cliff Range foi bem executado conforme estrutura?
+   ✓ Não há ganchos esquecidos?
+
+4. EMOÇÃO (0-10):
+   ✓ Impacto emocional progressivo ao longo da história?
+   ✓ Momentos de tensão bem distribuídos?
+   ✓ Final emocionalmente impactante?
+   ✓ Variedade emocional (não apenas tristeza)?
+
+5. IDIOMA/CULTURA (0-10):
+   ✓ Escrita 100% em [IDIOMA]?
+   ✓ Contexto cultural de [PAIS] autêntico?
+   ✓ Zero marcadores ou palavras em outros idiomas?
+   ✓ Nomes e locais adequados?
+
+6. RITMO (0-10):
+   ✓ Nem arrastado nem apressado?
+   ✓ Cada capítulo tem tamanho equilibrado (1000-1200 palavras)?
+   ✓ Boa alternância entre ação e reflexão?
+
+[TIPOS DE PROBLEMAS POSSÍVEIS]
+
+- cliffhanger_nao_resolvido: Gancho aberto e não fechado
+- inconsistencia_personagem: Personagem age diferente sem justificativa
+- contradicao_eventos: Eventos que se contradizem
+- repeticao: Mesma cena/ideia repetida desnecessariamente
+- capitulo_curto: Menos de 800 palavras
+- capitulo_longo: Mais de 1500 palavras
+- falta_emocao: Capítulo sem impacto emocional
+- idioma_errado: Uso de palavras/marcadores em outro idioma
+- transicao_abrupta: Mudança brusca entre cenas/capítulos
+- subtrama_abandonada: Subtrama iniciada mas não concluída
+- falta_detalhes_sensoriais: Descrições pobres ou genéricas
+- dialogo_artificial: Diálogos que soam forçados ou irreais
+
+[FORMATO DE RESPOSTA - RETORNE JSON VÁLIDO]
+
+{
+  "score_geral": [número 0-10, média ponderada dos scores detalhados],
+  
+  "scores_detalhados": {
+    "continuidade": [0-10],
+    "personagens": [0-10],
+    "cliffhangers": [0-10],
+    "emocao": [0-10],
+    "idioma_cultura": [0-10],
+    "ritmo": [0-10]
+  },
+  
+  "problemas_criticos": [
+    {
+      "tipo": "[um dos tipos listados acima]",
+      "capitulos": [array de números dos capítulos afetados],
+      "descricao": "[descrição específica e detalhada do problema encontrado NESTA história]",
+      "gravidade": "[alta/média/baixa]"
+    }
+  ],
+  
+  "problemas_menores": [
+    {
+      "tipo": "[tipo do problema]",
+      "capitulos": [array de números],
+      "descricao": "[descrição específica do problema]"
+    }
+  ],
+  
+  "pontos_fortes": [
+    "[Liste 3-5 aspectos positivos específicos observados na história]"
+  ],
+  
+  "sugestoes_correcao": [
+    "[Para cada problema crítico, forneça uma sugestão específica e acionável de como corrigi-lo]"
+  ]
+}
+
+[INSTRUÇÕES IMPORTANTES]
+
+- Analise OBJETIVAMENTE a história fornecida, não invente problemas que não existem
+- Compare a história escrita com a estrutura planejada fornecida
+- Seja rigoroso mas justo: se algo está bom, reconheça que está bom
+- Foque em problemas que REALMENTE impactam a qualidade e experiência do ouvinte
+- Se score geral ≥ 9.0, a lista de problemas_criticos deve estar vazia ou ter apenas itens muito menores
+- Se score < 8.0, deve haver problemas críticos claramente identificados
+- Todas as sugestões de correção devem ser ESPECÍFICAS e ACIONÁVEIS (não genéricas como "melhore o diálogo")
+- Use os nomes reais dos personagens e eventos da história ao descrever problemas
+- Cada problema deve referenciar capítulos específicos onde ocorre
+
+[EXEMPLO DE ESTRUTURA (não copie o conteúdo, apenas o formato)]
+
+{
+  "score_geral": 8.5,
+  "scores_detalhados": {
+    "continuidade": 9.0,
+    "personagens": 8.0,
+    "cliffhangers": 8.5,
+    "emocao": 9.0,
+    "idioma_cultura": 8.0,
+    "ritmo": 8.5
+  },
+  "problemas_criticos": [
+    {
+      "tipo": "cliffhanger_nao_resolvido",
+      "capitulos": [3, 7],
+      "descricao": "[descrição do problema específico desta história]",
+      "gravidade": "alta"
+    }
+  ],
+  "problemas_menores": [
+    {
+      "tipo": "repeticao",
+      "capitulos": [4, 6],
+      "descricao": "[descrição específica]"
+    }
+  ],
+  "pontos_fortes": [
+    "[Aspecto forte específico 1]",
+    "[Aspecto forte específico 2]",
+    "[Aspecto forte específico 3]"
+  ],
+  "sugestoes_correcao": [
+    "[Sugestão específica para corrigir problema 1]",
+    "[Sugestão específica para corrigir problema 2]"
+  ]
+}
+
+ANALISE A HISTÓRIA FORNECIDA E RETORNE APENAS O JSON, SEM TEXTO ADICIONAL ANTES OU DEPOIS.
